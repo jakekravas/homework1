@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: calibri , sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 /* Utility Classes */
@@ -15,26 +16,31 @@ body {
 }
 
 .header-big {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
-    color: #999;
+    color: #777777;
+}
+
+.temporary-line-height {
+    line-height: .8;
 }
 
 /* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 960px;
     margin: auto;
+    border-bottom: 2px solid #cccccc;
 }
 
 #navbar .name {
-    font-size: 36px;
     color: #f6f6f6;
-    background: rgb(18, 85, 85);
+    background: #4aaaa5;
     padding: 20px;
 }
 
@@ -49,6 +55,72 @@ a {
     border-right: 1px solid rgb(212, 212, 212);
 }
 
+#navbar ul li:last-child {
+    border-right: none;
+}
+
 #navbar ul li a {
     font-size: 20px;
+}
+
+/* Showcase */
+#showcase {
+    background-image: url("../images/concrete-texture.png");
+    padding: 40px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase .showcase-container {
+    width: 960px;
+    background: #ffffff;
+    height: 550px;
+    border: 2px solid #dddddd;
+}
+
+#showcase .showcase-container h1 {
+    color: #4aaaa5;
+    margin: 30px 30px 0 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+#showcase .showcase-container .about-upper {
+    display: flex;
+    line-height: 2;
+    font-size: 18px;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+#showcase .showcase-container .about-upper p {
+    margin-top: -10px;
+    color: #777;
+}
+
+#showcase .showcase-container img {
+    /* margin: 30px; */
+    height: 180px;
+    padding-right: 20px;
+}
+
+#showcase .showcase-container .about-lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    line-height: 2;
+    color: #777;
+    font-size: 18px;
+}
+
+/* Footer */
+#footer {
+    background: #666666;
+    color: #f6f6f6;
+    /* height: 10vh; */
+    padding: 34px 0 10px 0;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
 }
