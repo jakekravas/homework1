@@ -138,8 +138,23 @@ a {
     border: 2px solid #dddddd;
 }
 
+.box {
+    background: url("../images/Sage_2.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
 .pf-label {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    background: #4aaaa5;
+    color: #f6f6f6;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 20px;
 }
 
 /* Contact */
