@@ -20,13 +20,20 @@ body {
     font-size: 30px;
 }
 
+.content-header {
+    color: #4aaaa5;
+    margin: 30px 30px 0 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
 a {
     text-decoration: none;
     color: #777777;
 }
 
 .btn {
-    margin-top: -10px;
+    /* margin-top: -10px; */
     padding: 10px 20px;
     background: #4aaaa5;
     border: none;
@@ -89,15 +96,8 @@ a {
 #showcase .showcase-container {
     width: 960px;
     background: #ffffff;
-    height: 550px;
+    /* height: 550px; */
     border: 2px solid #dddddd;
-}
-
-#showcase .showcase-container h1 {
-    color: #4aaaa5;
-    margin: 30px 30px 0 30px;
-    padding-bottom: 30px;
-    border-bottom: 3px solid #dddddd;
 }
 
 #showcase .showcase-container .about-upper {
@@ -129,14 +129,17 @@ a {
     font-size: 18px;
 }
 
-/* Footer */
-#footer {
-    background: #666666;
-    color: #f6f6f6;
-    /* height: 10vh; */
-    padding: 34px 0 10px 0;
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
+/* Portfolio */
+
+.portfolio-container {
+    width: 960px;
+    background: #ffffff;
+    /* height: 550px; */
+    border: 2px solid #dddddd;
+}
+
+.pf-label {
+    
 }
 
 /* Contact */
@@ -156,4 +159,14 @@ a {
 
 #contact-form form .form-group label {
     display: block;
+}
+
+/* Footer */
+#footer {
+    background: #666666;
+    color: #f6f6f6;
+    /* height: 10vh; */
+    padding: 34px 0 10px 0;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
 }
