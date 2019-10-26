@@ -125,4 +125,19 @@ a {
     text-align: center;
 }
 
-/*  */
+/* Contact */
+
+#contact-form {
+    line-height: 1.4;
+    margin: 30px;
+    font-size: 18px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+}
+
+#contact-form form .form-group label {
+    display: block;
+}
