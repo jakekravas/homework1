@@ -25,6 +25,20 @@ a {
     color: #777777;
 }
 
+.btn {
+    margin-top: -10px;
+    padding: 10px 20px;
+    background: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #3a8683;
+    cursor: pointer;
+}
+
 .temporary-line-height {
     line-height: .8;
 }
