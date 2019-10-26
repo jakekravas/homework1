@@ -136,6 +136,8 @@ a {
 #contact-form input,
 #contact-form textarea {
     width: 100%;
+    padding: 6px;
+    margin: 4px 0 14px 0;
 }
 
 #contact-form form .form-group label {
