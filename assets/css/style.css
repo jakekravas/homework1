@@ -135,13 +135,15 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 66.66%;
+    margin: 30px;
 }
 
 .box {
     background: url("../images/Sage_2.jpg") no-repeat center center/cover;
     position: relative;
     height: 200px;
-    width: 200px;
+    width: 270px;
+    margin-bottom: 60px;
 }
 
 .pf-label {
