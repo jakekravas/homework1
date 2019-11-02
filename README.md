@@ -1,1 +1,5 @@
 # homework1
+
+This project was the very first step in creating a personal portfolio page for myself. The main focus for me in this first step was to effectively implement a proper styling and a proper layout in my page. I used a placeholder image of my cat for all image sections, and some lorem dummy text for the main text area. These will later be replaced with images that have more of a distinct purpose to them, and the dummy text will be replaced with an actual description about me, but for this project I was purely focused on nailing the styling, not necessarily the content.
+
+I found this to be a very good way for me to exercise my newly attained HTML and CSS skills. Creating a simple, minimalistic page seemed like a sensible first step in the process of improving my front-end development abilities.
