@@ -9,17 +9,24 @@ body {
     color: #777777;
 }
 
-/* Utility Classes */
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+/*** UTILITY CLASSES ***/
 .container {
     width: 960px;
     margin: auto;
 }
 
+/* Used for all large headers */
 .header-big {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
+/* Used for headers on main display area */
 .content-header {
     color: #4aaaa5;
     margin: 30px 30px 0 30px;
@@ -27,11 +34,7 @@ body {
     border-bottom: 3px solid #dddddd;
 }
 
-a {
-    text-decoration: none;
-    color: #777777;
-}
-
+/* Used for submit button */
 .btn {
     /* margin-top: -10px; */
     padding: 10px 20px;
@@ -46,11 +49,12 @@ a {
     cursor: pointer;
 }
 
+/* Temporary line height change to resemble model photo as closely as possible */
 .temporary-line-height {
     line-height: .8;
 }
 
-/* Navbar */
+/*** NAVBAR ***/
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -84,7 +88,7 @@ a {
     font-size: 20px;
 }
 
-/* Showcase */
+/*** SHOWCASE ***/
 #showcase {
     background-image: url("../images/concrete-texture.png");
     padding: 40px 0 100px 0;
@@ -158,8 +162,7 @@ a {
     font-size: 20px;
 }
 
-/* Contact */
-
+/*** CONTACT ***/
 #contact-form {
     line-height: 1.4;
     margin: 30px;
@@ -177,7 +180,7 @@ a {
     display: block;
 }
 
-/* Footer */
+/*** FOOTER ***/
 #footer {
     background: #666666;
     color: #f6f6f6;
